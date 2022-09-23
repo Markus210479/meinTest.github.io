@@ -1,0 +1,97 @@
+﻿body {
+    margin: 0px;
+    background-color: lightgray;
+    background-color: #333;
+}
+
+h1 {
+    font-family: Arial;
+    width: auto;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    height: 100%;
+    border-bottom: 1px solid white;
+}
+
+h2 {
+    font-family: Arial;
+    width: auto;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    /*height: 100%;*/
+    border-bottom: 1px solid white;
+}
+
+#linkContainer{
+    position: relative;
+    top: 250px;
+    left: 780px;
+    /*border: 1px solid white;*/
+    height: 300px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+a {    
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+}
+
+button {
+    font-family: Arial;
+    font-size: 25px;
+    height: 50px;
+    width: 230px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: #484848;
+}
+
+.abmeldenButtonContainer {
+    position: relative;
+}
+
+.abmeldenButton {
+    position:absolute;
+    right: 20px;
+    font-family: Arial;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;    
+}
+
+#link{
+    position: absolute;
+    top: 70px;
+    left: 65px;
+}
+
+.gridContainer {
+    gap: 0px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.gridItem_1 {
+    height: 60px;
+    /*background-color: #333;*/
+    /*background-color: #5d5a58;*/
+    grid-row-start: 1;
+    /*background-color: #333;*/
+}
+
+.gridItem_2 {
+    grid-row-start: 2;
+    /*background-color: #333;*/
+}

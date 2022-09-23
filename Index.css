@@ -1,0 +1,120 @@
+﻿body {
+    margin: 0px;
+    background-color: lightgray;
+    background-color: #333;
+}
+
+h1 {
+    font-family: Arial;
+    width: auto;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    height: 100%;
+    border-bottom: 1px solid white;
+}
+
+h2 {
+    font-family: Arial;
+    width: auto;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    /*height: 100%;*/
+    border-bottom: 1px solid white;
+}
+
+label {
+    float: left;
+    width: 160px;
+    line-height: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+form {
+    position: relative;
+    width: 500px;
+    top: 250px;
+    left: 710px;
+/*    border: 3px solid white;
+    border-radius: 8px;*/
+    height: 300px;
+    width: 500px;    
+}
+
+.gridContainer {
+    gap: 0px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.gridItem_1 {
+    height: 60px;
+    /*background-color: #333;*/
+    /*background-color: #5d5a58;*/
+    grid-row-start: 1;
+    /*background-color: #333;*/
+}
+
+.gridItem_2 {
+    grid-row-start: 2;
+    /*background-color: #333;*/
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+#loginContainer{
+    position:absolute;
+    top: 30px;
+    left: 50px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 15px;
+    color: white;
+}
+
+#goButton {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+}
+
+#goButton:hover {
+    background-color: #484848;
+}
+
+.inputContainer{
+    position: relative;
+}
+
+#loginError{
+    position: absolute;
+    top: 270px;
+    left: 50px;
+}
+
+span{
+    position: absolute;
+    left: 0px;
+    top: 65px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+}
