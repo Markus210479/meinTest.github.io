@@ -78,6 +78,7 @@
     <div class="gridContainer">
         <div class="gridItem_1">
             <h1>Ox4S Datenbanken</h1>
+			<p>A new line in our file!</p>
         </div>
         <div class="gridItem_2">
             <form id="loginFormular" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
